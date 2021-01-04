@@ -1,0 +1,222 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+/*intro heatlh care*/
+.intro-heatlhcare {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2% 10%;
+}
+h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+h1 , h2 {
+  margin: 1em;
+  font-family: Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+h3 {
+  width: 40%; ;
+  font-size: 23px;
+    margin: .25em 0 .35em;
+    padding : 0% 2%;
+    color: #00b39b;
+}
+.intro-heatlhcare div {
+  display: flex;
+  margin: 0 -10px;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+.intro-heatlhcare div p {
+  margin: 0.8em 0;
+  line-height: 1.75;
+  font-weight: 400;
+  width: fit-content;
+  padding: 3%;
+}
+.services_sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2% 10%;
+}
+.for_patients {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-evenly*/;
+  align-items: flex-start;
+  width: 30%;
+  padding: 2%;
+  background: #00b39b;
+  color: #fff;
+  text-shadow: none;
+  margin: 2%;
+  border-radius: 5%;
+}
+.for_doctors {
+  display: flex;
+  flex-direction: column;
+  /*justify-content:space-evenly*/;
+  align-items: flex-start;
+  width: 30%;
+  padding: 2%;
+  background: #3d83df;
+  color: #fff;
+  text-shadow: none;
+  margin: 2%;
+  border-radius: 5%;
+}
+.for_clinics {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-evenly*/;
+  align-items: flex-start;
+  width: 30%;
+  padding: 2%;
+  background: #1b2734;
+  color: #fff;
+  text-shadow: none;
+  margin: 2%;
+  border-radius: 5%;
+}
+.services_sections .select:last-child {
+  margin-bottom: 35px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+  width: fit-content;
+  background-color:transparent;
+  padding: 24% 7%;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.clinics {
+  display: flex;
+  flex-direction: column;
+  text-decoration: underline;
+  margin: 3% 8%;
+ padding:  5% 7% ;
+}
+.global_company {
+  display: flex;
+  padding: 2% 10%;;
+}
+.global_company h2{
+  width: 40%;
+}
+ .brand_logos {
+   fill: rgb(219, 216, 216);
+   list-style: none;
+   display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.brand_logositems {
+  width: 135px;
+  padding: 6px 21px;
+
+}
+.brand_logositems:hover{
+fill: #00b39b;  
+}
+.offices{
+  text-align: center;
+}
+.offices_sections {
+  display: flex;
+  flex-direction: column;
+  padding: 2% ;
+  justify-content: space-around;
+}
+.offices_slides{
+  display: flex;
+  flex-direction: column;
+  padding: 0% 0% 2% 0%;
+  margin-bottom: 20px;
+}
+.pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin:0 100px;
+  padding: 2% 2%;
+  
+}
+.offices_slides:hover {
+  box-shadow: 0 4px 4px 0 #e9dddd;
+}
+.office__desc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2% ;
+}
+.see_openings {
+  background-color:#3d83df;
+  color: white;
+  border-radius: 4px;
+  padding: 2% 2%;
+  font-size: 10px;
+  
+}
+.section__inner{
+  color: #a09b9b;
+ text-align: center;
+ font-size: 14px;
+
+}
+.section__inner p {
+  padding: 1%;
+}
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  margin: 3% 11%;
+  
+}
+.main-menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 2% 2%;
+  justify-content: space-between;
+}
+.main-nav {
+  display: flex;
+  flex-direction:row ;
+  padding: 0% 50%;
+  
+}
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fcfafa;
+  list-style: none;
+}
+.dropdown-content a {
+  color: rgb(197, 190, 190);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {color: #00b39b;}
+
+.dropdown:hover .dropdown-content {display: block;}
